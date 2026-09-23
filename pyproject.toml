@@ -1,0 +1,7 @@
+[project]
+name = "habit-traker-easy"
+version = "0.1.0"
+description = "Habit traker with the easy guide"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
