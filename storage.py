@@ -44,9 +44,9 @@ def cargar_usuario():
 
     usuarios = {}
 
-    for usaer_id, info in data.items():
+    for user_id, info in data.items():
         usuario = Usuario(
-            usaer_id = usaer_id,
+            user_id = user_id,
             nombre = info.get("nombre", "Anonimo")
         )
 
@@ -58,6 +58,6 @@ def cargar_usuario():
 
             usuario.habitos[nombre_habito] = habito
         
-        usuarios[usaer_id] = usuario
+        usuarios[user_id] = usuario
     
-    return usuario
+    return usuarios
